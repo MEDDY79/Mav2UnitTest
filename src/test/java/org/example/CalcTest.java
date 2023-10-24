@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 
-public class AppTest {
+public class CalcTest {
     @Test
     public void testCalSum() {
         Assertions.assertEquals(8, Calc.sum(5, 3));
@@ -49,5 +49,7 @@ public class AppTest {
         int y = Calc.mult(x, c);
         Assertions.assertEquals(y, Calc.sum(Calc.mult(a, c), Calc.mult(b, c)));
     }
+
+
 
 }
