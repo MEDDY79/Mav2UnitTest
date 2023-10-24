@@ -10,4 +10,17 @@ public class Calc {
     {
         return a-b;
     }
+
+    public static int mult(int a, int b){
+        int r=0;
+        if(b<0)
+        {
+            a = -a; b = - b;
+        }
+        for (int i = 0; i < b; i++) {
+            r+=a;
+        }
+
+        return r;
+    }
 }
